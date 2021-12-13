@@ -69,10 +69,10 @@ def get_readable_time(seconds: int) -> str:
 
     return ping_time
 
-ANIE_IMG = "https://telegra.ph/file/7944090b9aca51ef8f562.jpg"
+ANIE_IMG = "https://telegra.ph/file/ae657a2d0c6f7378ba875.jpg"
 
 PM_START_TEXT = """
-`Heya` 🤗 `I am` **Anie** `your group super bot`
+`Heya` 🤗 `I am` **🔱𝙷𝙰𝙽𝚄𝙼A𝙰𝙽 𝙱𝙷𝙰𝙺𝚃🔱** `your group super bot`
 `I am very fast and  more efficient  I provide awesome  features which a owner will look for  filter ,warn system,note keeping system flood!`
 """
 
@@ -82,9 +82,9 @@ buttons = [
             text="❔Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ ❔", callback_data="help_back"),
     ],
     [
-        InlineKeyboardButton(text="🔥 Sᴏᴜʀᴄᴇ",url="https://github.com/Anieteam/AnieRobot"),
+        InlineKeyboardButton(text="🔥 Sᴏᴜʀᴄᴇ",url="https://youtu.be/oe44RqKqupM"),
         InlineKeyboardButton(
-            text="Anie Userbot 🎶", url="https://github.com/Anieteam/Aniebots"
+            text="𝙷𝙰𝙽𝚄𝙼𝙰𝙽 𝙱𝙷𝙰𝙺𝚃 🎶", url="https://youtu.be/Ce4v_w-Habw"
         ),
     ],
     [
@@ -94,7 +94,7 @@ buttons = [
         ),
     ],
     [
-        InlineKeyboardButton(text="💕 Add me💕", url="http://t.me/Anierobot_bot?startgroup=true"),
+        InlineKeyboardButton(text="💕 Add me💕", url="http://t.me/HanumaanBhakt_bot?startgroup=true"),
     ],
 ]
 
@@ -106,7 +106,7 @@ HELP_STRINGS = """
 
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- @AnieBots's 💕"""
+ @clanlord7 💕"""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -216,12 +216,12 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_photo(
-            ANIE_IMG, caption= "I'm awake already!\n<b>Haven't slept since:</b> <code>{}</code>".format(
+            ANIE_IMG, caption= "जग रहा हू वत्स!\n<b>Haven't slept since:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
             reply_markup=InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="Aniebotchat", url="t.me/Aniebotsupports")]]
+                [[InlineKeyboardButton(text="Aniebotchat", url="t.me/friends_chatting_world")]]
             ),
         )
         
@@ -388,7 +388,7 @@ def innexia_about_callback(update, context):
             text=f"*Here's basic Help regarding* *How to use Me?*"
             f"\n\n• Firstly Add {dispatcher.bot.first_name} to your group by pressing [here](http://t.me/{dispatcher.bot.username}?startgroup=true)\n"
             f"\n• After adding promote me manually with full rights for faster experience.\n"
-            f"\n• Than send `/admincache@Anierobot_bot` in that chat to refresh admin list in My database.\n"
+            f"\n• Than send `/admincache@hanumaanbhakt_bot` in that chat to refresh admin list in My database.\n"
             f"\n\n*All done now use below given button's to know about use!*\n"
             f"",
             parse_mode=ParseMode.MARKDOWN,
@@ -413,7 +413,7 @@ def innexia_about_callback(update, context):
     elif query.data == "Anie_admin":
         query.message.edit_text(
             text=f"*Let's make your group bit effective now*"
-            f"\nCongragulations, Innexia now ready to manage your group."
+            f"\nCongragulations, 🔱 hαηumαη ßhακ† ❤️ now ready to manage your group."
             f"\n\n*Admin Tools*"
             f"\nBasic Admin tools help you to protect and powerup your group."
             f"\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -446,12 +446,12 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/Anielogs"),
-                    InlineKeyboardButton(text="Fᴇᴅ", url="t.me/Aniebots"),
+                    InlineKeyboardButton(text="Lᴏɢ'ꜱ", url="t.me/clanlordxfed"),
+                    InlineKeyboardButton(text="Fᴇᴅ", url="t.me/clanlordxfed"),
                  ],
                  [
-                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/AniebotSupports"),
-                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/Aniebots"),
+                    InlineKeyboardButton(text="Sᴜᴘᴘᴏʀᴛ", url="t.me/friends_chatting_world"),
+                    InlineKeyboardButton(text="Uᴘᴅᴀᴛᴇꜱ", url="https://t.me/bots_tutorial"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="anie_basichelp"),
@@ -468,12 +468,8 @@ def innexia_about_callback(update, context):
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="D3nvil", url="t.me/d3nvil"),
-                    InlineKeyboardButton(text="Anon", url="t.me/noobanon"),
-                 ],
-                 [
-                    InlineKeyboardButton(text="loly", url="t.me/piroXpower"),
-                    InlineKeyboardButton(text="Zᴀʟɪᴍ", url="https://t.me/Jalim_Munda"),
+                    InlineKeyboardButton(text="🇮🇳ᴛx🕊️⃝🦋ᴍᴀʏᴀɴᴋ★ғғ🌹", url="t.me/clanlord7"),
+                    InlineKeyboardButton(text="DM-BOT", url="t.me/clan_chat_bot"),
                  ],
                  [
                     InlineKeyboardButton(text="Back", callback_data="anie_basichelp"),
@@ -489,8 +485,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..😻 I'm *Anie*
-                 \nHere is the [🔥Source Code🔥](https://github.com/Anieteam/AnieRobot) .""",
+            text=""" नमस्कार.😻 मैं हनुमान भक्त*
+                 \nHere is the [🔥Source Code🔥](https://youtu.be/XqLQ4oKh-0w) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -548,7 +544,7 @@ def get_help(update: Update, context: CallbackContext):
                     [
                         InlineKeyboardButton(
                             text="Sᴜᴘᴘᴏʀᴛ Cʜᴀᴛ 📢 ",
-                            url="https://t.me/t.me/Aniebotsupports"
+                            url="https://t.me/t.me/friends_chatting_world"
                         )
                     ],
                 ]
